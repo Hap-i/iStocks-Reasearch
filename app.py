@@ -10,9 +10,10 @@ import yfinance as yf
 from datetime import datetime as dt
 from dash.exceptions import PreventUpdate
 
-app = dash.Dash(external_stylesheets=[dbc.themes.BOOTSTRAP],
+app = dash.Dash(__name__,external_stylesheets=[dbc.themes.BOOTSTRAP],
                meta_tags=[{'name': 'viewport',
                             'content': 'width=device-width, initial-scale=1.0'}])
+server = app.server
 
 app.title = 'iStocks Research'
 
