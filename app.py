@@ -60,7 +60,7 @@ sidebar = html.Div([
 navbar = dbc.NavbarSimple(
     children=[
         dbc.NavItem(dbc.NavLink("Linkedin", target='_blank', href="https://www.linkedin.com/in/suvendu-sekhar-sahoo-919a65178/")),
-        dbc.NavItem(dbc.NavLink("Github", target='_blank', href="#")),
+        dbc.NavItem(dbc.NavLink("Github", target='_blank', href="https://github.com/Hap-i/iStocks-Reasearch")),
     ],
     brand="iStocks Reasearch",
     brand_href="#",
